@@ -1,0 +1,134 @@
+/* ======== ESTILO GENERAL ======== */
+body {
+    font-family: "Segoe UI", Roboto, Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* ======== CONTENEDOR ======== */
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* ======== TÍTULOS ======== */
+h1, h2 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+/* ======== TABLA ======== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+table th {
+    background-color: #2473da;
+    color: #fff;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* ======== BOTONES GENERALES ======== */
+a.button, button {
+    display: inline-block;
+    padding: 15px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+    text-align: center;
+}
+
+a.button:hover, button:hover {
+    transform: scale(1.05);
+}
+
+/* ======== BOTONES ESPECÍFICOS ======== */
+.button-add {
+    background-color: #27ae60; /* verde */
+}
+.button-add:hover {
+    background-color: #1e8449;
+}
+
+.button-delete {
+    background-color: #e74c3c; /* rojo */
+}
+.button-delete:hover {
+    background-color: #c0392b;
+}
+
+.button-save {
+  background-color: #3498db; /* azul */
+}
+.button-save:hover {
+    background-color: #2980b9;
+}
+
+/* ======== FORMULARIO ======== */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 18px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* ======== SECCIÓN DE ACCIONES ======== */
+.actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
+/* ======== ENCABEZADO ======== */
+header {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* ======== FOOTER ======== */
+footer {
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+    font-size: 14px;
+      color: #666;
+}
